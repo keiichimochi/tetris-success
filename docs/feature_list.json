@@ -1,5 +1,353 @@
-{
-  "project": "tetris-success",
-  "created_at": "2025-12-01T00:00:00Z",
-  "features": []
-}
+[
+  {
+    "id": "F001",
+    "name": "ヘルスチェックAPI",
+    "description": "サーバー状態確認",
+    "priority": 2,
+    "estimated_hours": 3,
+    "dependencies": [],
+    "category": "api"
+  },
+  {
+    "id": "F002",
+    "name": "CRUD API基盤",
+    "description": "基本的なCRUD操作",
+    "priority": 2,
+    "estimated_hours": 3,
+    "dependencies": [],
+    "category": "api"
+  },
+  {
+    "id": "F003",
+    "name": "ページネーション",
+    "description": "リスト取得のページング",
+    "priority": 2,
+    "estimated_hours": 3,
+    "dependencies": [],
+    "category": "api"
+  },
+  {
+    "id": "F004",
+    "name": "フィルタリング",
+    "description": "検索・フィルター機能",
+    "priority": 2,
+    "estimated_hours": 3,
+    "dependencies": [],
+    "category": "api"
+  },
+  {
+    "id": "F005",
+    "name": "ソート機能",
+    "description": "結果のソート",
+    "priority": 2,
+    "estimated_hours": 3,
+    "dependencies": [],
+    "category": "api"
+  },
+  {
+    "id": "F006",
+    "name": "バリデーション",
+    "description": "入力値検証",
+    "priority": 2,
+    "estimated_hours": 3,
+    "dependencies": [],
+    "category": "api"
+  },
+  {
+    "id": "F007",
+    "name": "エラーハンドリング",
+    "description": "統一エラーレスポンス",
+    "priority": 2,
+    "estimated_hours": 3,
+    "dependencies": [],
+    "category": "api"
+  },
+  {
+    "id": "F008",
+    "name": "レート制限",
+    "description": "API呼び出し制限",
+    "priority": 2,
+    "estimated_hours": 3,
+    "dependencies": [],
+    "category": "api"
+  },
+  {
+    "id": "F009",
+    "name": "CORS設定",
+    "description": "クロスオリジン設定",
+    "priority": 2,
+    "estimated_hours": 3,
+    "dependencies": [],
+    "category": "api"
+  },
+  {
+    "id": "F010",
+    "name": "OpenAPI ドキュメント",
+    "description": "API仕様書自動生成",
+    "priority": 2,
+    "estimated_hours": 3,
+    "dependencies": [],
+    "category": "api"
+  },
+  {
+    "id": "F011",
+    "name": "ヘッダーコンポーネント",
+    "description": "共通ヘッダー",
+    "priority": 3,
+    "estimated_hours": 2,
+    "dependencies": [],
+    "category": "ui"
+  },
+  {
+    "id": "F012",
+    "name": "フッターコンポーネント",
+    "description": "共通フッター",
+    "priority": 3,
+    "estimated_hours": 2,
+    "dependencies": [],
+    "category": "ui"
+  },
+  {
+    "id": "F013",
+    "name": "ナビゲーション",
+    "description": "メニュー・ナビ",
+    "priority": 3,
+    "estimated_hours": 2,
+    "dependencies": [],
+    "category": "ui"
+  },
+  {
+    "id": "F014",
+    "name": "ボタンコンポーネント",
+    "description": "再利用可能ボタン",
+    "priority": 3,
+    "estimated_hours": 2,
+    "dependencies": [],
+    "category": "ui"
+  },
+  {
+    "id": "F015",
+    "name": "フォームコンポーネント",
+    "description": "入力フォーム",
+    "priority": 3,
+    "estimated_hours": 2,
+    "dependencies": [],
+    "category": "ui"
+  },
+  {
+    "id": "F016",
+    "name": "モーダルコンポーネント",
+    "description": "ダイアログ",
+    "priority": 3,
+    "estimated_hours": 2,
+    "dependencies": [],
+    "category": "ui"
+  },
+  {
+    "id": "F017",
+    "name": "テーブルコンポーネント",
+    "description": "データ表示テーブル",
+    "priority": 3,
+    "estimated_hours": 2,
+    "dependencies": [],
+    "category": "ui"
+  },
+  {
+    "id": "F018",
+    "name": "カードコンポーネント",
+    "description": "情報カード",
+    "priority": 3,
+    "estimated_hours": 2,
+    "dependencies": [],
+    "category": "ui"
+  },
+  {
+    "id": "F019",
+    "name": "ローディング表示",
+    "description": "読み込み中表示",
+    "priority": 3,
+    "estimated_hours": 2,
+    "dependencies": [],
+    "category": "ui"
+  },
+  {
+    "id": "F020",
+    "name": "エラー表示",
+    "description": "エラーメッセージ",
+    "priority": 3,
+    "estimated_hours": 2,
+    "dependencies": [],
+    "category": "ui"
+  },
+  {
+    "id": "F021",
+    "name": "トースト通知",
+    "description": "通知表示",
+    "priority": 3,
+    "estimated_hours": 2,
+    "dependencies": [],
+    "category": "ui"
+  },
+  {
+    "id": "F022",
+    "name": "レスポンシブデザイン",
+    "description": "モバイル対応",
+    "priority": 3,
+    "estimated_hours": 2,
+    "dependencies": [],
+    "category": "ui"
+  },
+  {
+    "id": "F023",
+    "name": "ダークモード",
+    "description": "テーマ切り替え",
+    "priority": 3,
+    "estimated_hours": 2,
+    "dependencies": [],
+    "category": "ui"
+  },
+  {
+    "id": "F024",
+    "name": "アクセシビリティ",
+    "description": "a11y対応",
+    "priority": 3,
+    "estimated_hours": 2,
+    "dependencies": [],
+    "category": "ui"
+  },
+  {
+    "id": "F025",
+    "name": "データベース接続",
+    "description": "DB接続設定",
+    "priority": 2,
+    "estimated_hours": 2,
+    "dependencies": [],
+    "category": "database"
+  },
+  {
+    "id": "F026",
+    "name": "マイグレーション",
+    "description": "スキーマ管理",
+    "priority": 2,
+    "estimated_hours": 2,
+    "dependencies": [],
+    "category": "database"
+  },
+  {
+    "id": "F027",
+    "name": "シード",
+    "description": "初期データ投入",
+    "priority": 2,
+    "estimated_hours": 2,
+    "dependencies": [],
+    "category": "database"
+  },
+  {
+    "id": "F028",
+    "name": "インデックス最適化",
+    "description": "クエリ最適化",
+    "priority": 2,
+    "estimated_hours": 2,
+    "dependencies": [],
+    "category": "database"
+  },
+  {
+    "id": "F029",
+    "name": "バックアップ",
+    "description": "データバックアップ",
+    "priority": 2,
+    "estimated_hours": 2,
+    "dependencies": [],
+    "category": "database"
+  },
+  {
+    "id": "F030",
+    "name": "ユニットテスト",
+    "description": "単体テスト",
+    "priority": 4,
+    "estimated_hours": 4,
+    "dependencies": [],
+    "category": "testing"
+  },
+  {
+    "id": "F031",
+    "name": "統合テスト",
+    "description": "結合テスト",
+    "priority": 4,
+    "estimated_hours": 4,
+    "dependencies": [],
+    "category": "testing"
+  },
+  {
+    "id": "F032",
+    "name": "E2Eテスト",
+    "description": "エンドツーエンドテスト",
+    "priority": 4,
+    "estimated_hours": 4,
+    "dependencies": [],
+    "category": "testing"
+  },
+  {
+    "id": "F033",
+    "name": "テストカバレッジ",
+    "description": "カバレッジ計測",
+    "priority": 4,
+    "estimated_hours": 4,
+    "dependencies": [],
+    "category": "testing"
+  },
+  {
+    "id": "F034",
+    "name": "CI/CD パイプライン",
+    "description": "自動テスト実行",
+    "priority": 4,
+    "estimated_hours": 4,
+    "dependencies": [],
+    "category": "testing"
+  },
+  {
+    "id": "F035",
+    "name": "Docker設定",
+    "description": "コンテナ化",
+    "priority": 5,
+    "estimated_hours": 3,
+    "dependencies": [],
+    "category": "deployment"
+  },
+  {
+    "id": "F036",
+    "name": "環境変数管理",
+    "description": "設定管理",
+    "priority": 5,
+    "estimated_hours": 3,
+    "dependencies": [],
+    "category": "deployment"
+  },
+  {
+    "id": "F037",
+    "name": "ログ設定",
+    "description": "ログ出力",
+    "priority": 5,
+    "estimated_hours": 3,
+    "dependencies": [],
+    "category": "deployment"
+  },
+  {
+    "id": "F038",
+    "name": "モニタリング",
+    "description": "監視設定",
+    "priority": 5,
+    "estimated_hours": 3,
+    "dependencies": [],
+    "category": "deployment"
+  },
+  {
+    "id": "F039",
+    "name": "デプロイスクリプト",
+    "description": "自動デプロイ",
+    "priority": 5,
+    "estimated_hours": 3,
+    "dependencies": [],
+    "category": "deployment"
+  }
+]

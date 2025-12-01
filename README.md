@@ -1,14 +1,68 @@
 # tetris-success
 
-Multi-agent development project.
+## 技術スタック
 
-## Structure
+- **フロントエンド**: nextjs
+- **バックエンド**: fastapi
+- **データベース**: sqlite
 
-- `docs/` - Documentation and feature lists
-- `src/` - Source code
-- `tests/` - Test files
-- `scripts/` - Build and deployment scripts
+## セットアップ
 
-## Development
+```bash
+./scripts/init.sh
+```
 
-This project is managed by the Multi-Agent Orchestrator system.
+## 機能一覧
+
+合計 39 機能
+
+### API (10機能)
+
+- ヘルスチェックAPI: サーバー状態確認
+- CRUD API基盤: 基本的なCRUD操作
+- ページネーション: リスト取得のページング
+- フィルタリング: 検索・フィルター機能
+- ソート機能: 結果のソート
+- ... 他 5 機能
+
+### UI (14機能)
+
+- ヘッダーコンポーネント: 共通ヘッダー
+- フッターコンポーネント: 共通フッター
+- ナビゲーション: メニュー・ナビ
+- ボタンコンポーネント: 再利用可能ボタン
+- フォームコンポーネント: 入力フォーム
+- ... 他 9 機能
+
+### DATABASE (5機能)
+
+- データベース接続: DB接続設定
+- マイグレーション: スキーマ管理
+- シード: 初期データ投入
+- インデックス最適化: クエリ最適化
+- バックアップ: データバックアップ
+
+### TESTING (5機能)
+
+- ユニットテスト: 単体テスト
+- 統合テスト: 結合テスト
+- E2Eテスト: エンドツーエンドテスト
+- テストカバレッジ: カバレッジ計測
+- CI/CD パイプライン: 自動テスト実行
+
+### DEPLOYMENT (5機能)
+
+- Docker設定: コンテナ化
+- 環境変数管理: 設定管理
+- ログ設定: ログ出力
+- モニタリング: 監視設定
+- デプロイスクリプト: 自動デプロイ
+
+
+## 開発
+
+詳細は `docs/` ディレクトリを参照してください。
+
+- `docs/feature_list.json` - 全機能リスト
+- `docs/claude-progress.txt` - 進捗ログ
+- `docs/architecture.md` - アーキテクチャ設計
